@@ -4,6 +4,11 @@
 
 <!-- Add below configuration in tsc configuration file -->
 
+
+4
+
+
+
 {
   "compilerOptions": {
     "target": "ES2020",
