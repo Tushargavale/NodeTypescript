@@ -124,3 +124,12 @@ it will crash as nodemon need tsnode
 
 
 npm i -D ts-node
+
+
+
+"scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc --build",
+    "start": "nodemon ./dist/index.js",
+    "start:dev": "nodemon ./src/index.ts"
+  },
